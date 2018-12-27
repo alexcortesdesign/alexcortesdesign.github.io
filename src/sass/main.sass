@@ -1,0 +1,105 @@
+@import './variables'
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500')
+
+@font-face
+    font-family: 'Mosk'
+    src: url('/assets/fonts/mosk-light.ttf') format('truetype');
+    font-weight: 300
+
+@font-face
+    font-family: 'Mosk'
+    src: url('/assets/fonts/mosk-semibold.ttf') format('truetype')
+    font-weight: 600;
+
+@font-face
+    font-family: 'Mosk'
+    src: url('/assets/fonts/mosk.ttf') format('truetype')
+
+@font-face
+    font-family: 'Mosk'
+    src: url('/assets/fonts/mosk-bold.ttf') format('truetype')
+    font-weight: 700
+
+*
+    box-sizing: border-box
+    padding: 0
+    margin: 0
+
+@import "./frame"
+@import "./icons"
+
+.profile-image
+    display: block
+    position: absolute
+    right: 25px
+    bottom: 70px
+    width: 40%
+
+    @media screen and (min-width: $small-screen)
+        right: 40px
+        bottom: 0
+
+.info
+    width: 100%
+    text-align: right
+
+    h2
+        font-family: Mosk
+        color: $grey
+        font-size: 60px
+        margin-top: 35px
+
+    h3
+        color: $orange
+        font-family: Montserrat
+        font-weight: 300
+
+    p
+        font-family: Montserrat
+        color: $grey
+        text-align: justify
+        padding: 40px 0
+
+    @media screen and (min-width: $small-screen)
+        max-width: 500px
+        padding-left: 50px
+
+        h2
+            font-size: 85px
+            margin-top: 50px
+
+    @media screen and (min-width: $big-screen)
+        max-width: 600px
+        padding-left: 100px
+
+        h2
+            font-size: 105px
+
+        h3
+            font-size: 25px
+
+.quote
+    color: $orange
+    font-family: Montserrat
+    text-align: left
+    font-size: 20px
+
+    &:before
+        display: block
+        content: "\e977"
+        font-family: 'icomoon' !important
+        speak: none
+        font-style: normal
+        font-weight: normal
+        font-variant: normal
+        text-transform: none
+        line-height: 1
+
+        -webkit-font-smoothing: antialiased
+        -moz-osx-font-smoothing: grayscale
+        margin-bottom: 5px
+
+    & > span
+        display: block
+        font-size: 15px
+        margin: 15px 0

@@ -1,0 +1,29 @@
+{
+  "name": "alexcortesdesign.github.io",
+  "version": "1.0.0",
+  "description": "Site Portifolio do Alex Cortes",
+  "main": "index.js",
+  "scripts": {
+    "serve": "gulp serve",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcortesdesign/alexcortesdesign.github.io.git"
+  },
+  "keywords": [
+    "static",
+    "portifolio",
+    "site"
+  ],
+  "author": "Guilherme Diego <guilherme.albino.francisco@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexcortesdesign/alexcortesdesign.github.io/issues"
+  },
+  "homepage": "https://github.com/alexcortesdesign/alexcortesdesign.github.io#readme",
+  "devDependencies": {
+    "gulp": "3",
+    "gulp-static-gen": "^1.0.2"
+  }
+}
