@@ -12,5 +12,6 @@ deploy:
   github-token:
     secure: BCNw+irOKPfwHQGd1cDVNh2or5y72HHps1R41HX1PO1tGoiuE+YNaek2oFDvdTRVanelnnDDp6MIOGJ4tBN2xph4670djZUoB9+5LMUT38BFUo/zk1p3guKp1Qr4xP5wz8jH4fptTe9a0hXx9MhrL3o1j2dE0OSeUeky/zFccH7DCYSMrDkR2HV8OCHTl4faNhili9Mpq7GHHdmsAP2Y3D4ZECnVtXI7JdNlNi5urqqh6sVQyyFXj6h1U/c86RXgHHr0/G2KI7XhnyndGyGsoh14kAnEXXK8HIs8DaWWbVPtth3nq1qvdENgHq4beaIxjrpgDX7ymavbbpgvoz/7p86AJIz9wtY+F3ph6zHHXyCdyEbZQ6vVVkvWEvVyAu+iVEmVO6GFScDZcJvudz+L81iANJMciH4j8qpnplqAcdEKUXScV1HeNP8qeYCUSobl9l469kWz/AC+r04Tst01VFoZdSiKUai1RSJVa1+qOgnphZDDsAb/7X+24hBvqefaOo7TQKR1TFkGAi70FXaWIITNYYAfUyj/DdW91wxeya7QsIoXBidEG4r+ICFU7bwbBv4z9AfdEqxgwZkr1B5gbKMHum/Hq2T1elsHk51vma8LM6Dv8YxWSHBlONWFEqdRGNgIMRh4g7s3/Z3WZr304jtvB6B+4pEBVAIpWHOeNIQ=
   keep-history: true
+  target-branch: master
   on:
-    branch: master
+    branch: develop
